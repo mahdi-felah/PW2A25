@@ -1,0 +1,55 @@
+body{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+a, caption {
+    font-size: 30px;
+    text-decoration: underline;
+    color: #1a3e6d;
+    text-transform: uppercase;
+}
+table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+    font-size: 30px;
+    background-color:  #8fbbf5;
+    color: white;
+  }
+
+  td {
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  th, td {
+    border-bottom: 1px solid #8fbbf5;
+  }
+
+  tr:hover {
+      background-color: #8fbbf5;
+    }
+button {
+    width: 100%;
+}
+button, input[type="submit"], input[type="reset"] {
+    background-color: white;
+    color: #1a3e6d;
+    border: 2px solid #8fbbf5;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+}
+label{
+    font-size: 28px;
+    color: #1a3e6d;
+}

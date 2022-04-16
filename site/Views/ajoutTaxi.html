@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Ajout Taxi</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button><a href="afficherTaxi.php">Retour à la liste des Taxi</a></button>
+		<hr>
+        <form method="POST" action="ajoutTaxi.php">
+            <table>
+                <caption>Ajouter Taxi</caption>
+                <tr>
+                    <td><label>IDchauffeur</label></td>
+                    <td><input type="number" name="IDchauffeur"></td>
+                </tr>
+                <tr>
+                    <td><label>Nomchauffeur</label></td>
+                    <td><input type="text" name="Nomchauffeur"></td>
+                </tr>
+                <tr>
+                    <td><label>Numchaufeur</label></td>
+                    <td><input type="number" name="Numchaufeur"></td>
+                </tr>
+                <tr>
+                    <td><label>Disponibilite</label></td>
+                    <td><input type="number" name="Disponibilite" step="1" min = "0"></td>
+                </tr>
+                <tr>
+                    <td><label>Typetaxi</label></td>
+                    <td><input type="number" name="Typetaxi" step="0.5" min="10"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="ajouter" value="ajouter"></td>
+                    <td><input type="reset" name="annuler" value="annuler"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
